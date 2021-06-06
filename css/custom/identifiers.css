@@ -1,0 +1,14 @@
+/* IDENTIFIERS */
+
+
+#ETLT-logo {
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+}
+#ETLT-link {
+    color: #FEA400;
+}
+#ETLT-link.hvr-underline-reveal:before {
+    background: #FEA400;
+}
