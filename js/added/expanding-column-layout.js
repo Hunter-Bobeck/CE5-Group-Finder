@@ -1,3 +1,4 @@
+
 var Expand = (function() {
   var tile = $('.strips__strip');
   var tileLink = $('.strips__strip > .strip__content');
@@ -40,9 +41,6 @@ var Expand = (function() {
 
     var init = function() {
       bindActions();
-      document.querySelectorAll('.strip__inner-text').forEach(function(el) {
-        el.addClass('display-none');
-      });
     };
 
     return {
@@ -51,4 +49,7 @@ var Expand = (function() {
 
   }());
 
+$(document).ready(function() {
+    $('.strip__inner-text').addClass('display-none'); 
+});
 Expand.init();
