@@ -41,10 +41,16 @@
     background-color: white;
     border-radius: 1em;
     padding: 1em;
+    width: 100%;
 }
 #ETLT-link {
     color: #FEA400;
 }
 #ETLT-link.hvr-underline-reveal:before {
     background: #FEA400;
+}
+@media only screen and (min-width: 1024px) {		/* responsivity - at least: desktop */
+    #ETLT-logo {
+        width: auto;
+    }
 }
