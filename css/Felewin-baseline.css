@@ -39,6 +39,7 @@
     --color-light: white;
     --color-dark: #232325;
     --color-selection: #b0f3e6;
+    --color-sharp-button: #ef79fd;
     --color-link: var(--color-Felewin);
     --color-link-hovered: #428bca;
     --color-link-Felewin: var(--color-Felewin);
@@ -380,6 +381,18 @@ button {
 button:focus {
 	outline: 0;
 }
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700');
+.sharp-button {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: bold;
+    font-size: 1.44rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 2em;
+    background-color: var(--color-sharp-button);
+}
+.sharp-button:hover {color:white;}
 
 
 

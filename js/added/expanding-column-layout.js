@@ -12,6 +12,7 @@ var Expand = (function() {
 
       if (!expanded) {
         tile.addClass('strips__strip--expanded');
+        tileText.removeClass('display-none');
         // add delay to inner text
         tileText.css('transition', 'all .5s .3s cubic-bezier(0.23, 1, 0.32, 1)');
         stripClose.addClass('strip__close--show');
@@ -23,6 +24,7 @@ var Expand = (function() {
   var close = function() {
     if (expanded) {
       tile.removeClass('strips__strip--expanded');
+        tileText.addClass('display-none');
       // remove delay from inner text
       tileText.css('transition', 'all 0.15s 0 cubic-bezier(0.23, 1, 0.32, 1)');
       stripClose.removeClass('strip__close--show');
@@ -38,6 +40,9 @@ var Expand = (function() {
 
     var init = function() {
       bindActions();
+      document.querySelectorAll('.strip__inner-text').forEach(function(el) {
+        el.addClass('display-none');
+      });
     };
 
     return {

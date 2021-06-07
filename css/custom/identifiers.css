@@ -1,6 +1,29 @@
 /* IDENTIFIERS */
 
 
+/* index.html */
+#title {
+    font-size: 2rem;
+    text-align: center;
+}
+#text-container {
+    margin: 6vw;
+}
+@media only screen and (min-width: 600px) {    /* responsivity - at least: tablets in portrait mode */
+    #title {
+        font-size: 2.5rem;
+        text-align: left;
+    }
+    #text-container {
+        font-weight: 300;
+        font-size: 24px;
+    }
+}
+#options-button {
+    background: linear-gradient(90deg, rgba(122,25,248,1) 0%, rgba(211,0,239,1) 100%);
+}
+
+/* options.html */
 #ETLT-logo {
     background-color: white;
     border-radius: 1em;

@@ -32,31 +32,31 @@
 	 left: 80vw;
 }
  .strips__strip:nth-child(1) .strip__content {
-	 background: #244f75;
+	 background: #1A5E8E;
 	 transform: translate3d(-100%, 0, 0);
 	 animation-name: strip1;
 	 animation-delay: 0.1s;
 }
  .strips__strip:nth-child(2) .strip__content {
-	 background: #60bfbf;
+	 background: #6b00f7;
 	 transform: translate3d(0, 100%, 0);
 	 animation-name: strip2;
 	 animation-delay: 0.2s;
 }
  .strips__strip:nth-child(3) .strip__content {
-	 background: #8c4b7e;
+	 background: #0065B8;
 	 transform: translate3d(0, -100%, 0);
 	 animation-name: strip3;
 	 animation-delay: 0.3s;
 }
  .strips__strip:nth-child(4) .strip__content {
-	 background: #f8bb44;
+	 background: #00ADEE;
 	 transform: translate3d(0, 100%, 0);
 	 animation-name: strip4;
 	 animation-delay: 0.4s;
 }
  .strips__strip:nth-child(5) .strip__content {
-	 background: #f24b4b;
+	 background: #64bdb1;
 	 transform: translate3d(100%, 0, 0);
 	 animation-name: strip5;
 	 animation-delay: 0.5s;
