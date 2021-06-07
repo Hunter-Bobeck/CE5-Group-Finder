@@ -2,21 +2,26 @@
 
 
 /* index.html */
-#title {
-    font-size: 2rem;
-    text-align: center;
-}
 #text-container {
     margin: 6vw;
 }
+#top-container {
+    text-align: center;
+}
+#title {
+    font-size: 2rem;
+}
 @media only screen and (min-width: 768px) {		/* responsivity - at least: tablets in landscape mode */
-    #title {
-        font-size: 2.5rem;
-        text-align: left;
-    }
     #text-container {
         font-weight: 300;
         font-size: 24px;
+    }
+    #top-container {
+        text-align: left;
+    }
+    #title {
+        font-size: 2.5rem;
+        text-align: left;
     }
 }
 #options-button {
