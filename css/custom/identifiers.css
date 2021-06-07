@@ -22,6 +22,9 @@
 #options-button {
     background: linear-gradient(90deg, rgba(122,25,248,1) 0%, rgba(211,0,239,1) 100%);
 }
+#options-button.hvr-trim::before {
+    border-color: white;
+}
 
 /* options.html */
 #ETLT-logo {
