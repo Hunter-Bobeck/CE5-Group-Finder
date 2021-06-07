@@ -9,7 +9,14 @@
     text-align: center;
 }
 #title {
-    font-size: 2rem;
+    font-size: 1.5rem;
+}
+#options-button {
+    background: linear-gradient(90deg, rgba(122,25,248,1) 0%, rgba(211,0,239,1) 100%);
+    font-size: 1.3rem;
+}
+#options-button.hvr-trim::before {
+    border-color: white !important;
 }
 @media only screen and (min-width: 768px) {		/* responsivity - at least: tablets in landscape mode */
     #text-container {
@@ -23,12 +30,10 @@
         font-size: 2.5rem;
         text-align: left;
     }
-}
-#options-button {
-    background: linear-gradient(90deg, rgba(122,25,248,1) 0%, rgba(211,0,239,1) 100%);
-}
-#options-button.hvr-trim::before {
-    border-color: white !important;
+    #options-button {
+        background: linear-gradient(90deg, rgba(122,25,248,1) 0%, rgba(211,0,239,1) 100%);
+        font-size: 1.44rem;
+    }
 }
 
 /* options.html */
