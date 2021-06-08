@@ -15,9 +15,6 @@
     background: linear-gradient(90deg, rgba(122,25,248,1) 0%, rgba(211,0,239,1) 100%);
     font-size: 1.3rem;
 }
-#options-button.hvr-trim::before {
-    border-color: white !important;
-}
 @media only screen and (min-width: 768px) {		/* responsivity - at least: tablets in landscape mode */
     #text-container {
         font-weight: 300;
@@ -31,7 +28,6 @@
         text-align: left;
     }
     #options-button {
-        background: linear-gradient(90deg, rgba(122,25,248,1) 0%, rgba(211,0,239,1) 100%);
         font-size: 1.44rem;
     }
 }
@@ -57,5 +53,18 @@
 @media only screen and (min-width: 1024px) {		/* responsivity - at least: desktop */
     #ETLT-logo {
         width: auto;
+    }
+}
+#map {
+    width: 100%;
+    height: 80vh;
+}
+#map-button {
+    background: linear-gradient(90deg, rgba(114,12,247,1) 11%, rgba(211,0,239,1) 100%);
+    font-size: 1.3rem;
+}
+@media only screen and (min-width: 768px) {		/* responsivity - at least: tablets in landscape mode */
+    #map-button {
+        font-size: 1.44rem;
     }
 }
