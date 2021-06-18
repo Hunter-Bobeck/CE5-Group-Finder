@@ -68,3 +68,10 @@
         font-size: 1.44rem;
     }
 }
+#ETC-logo {
+    width: 50%;
+}
+#discord-button {
+    background: linear-gradient(90deg, #6F66F2 5%, rgba(211,0,239,1) 100%);
+    font-size: 1.3rem;
+}
